@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVault1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/23f952c6-b1f8-4d0e-8e64-a1fca38e756e/resourceGroups/rg-core-dataadmin-devv-uks-01/providers/Microsoft.KeyVault/vaults/kv-cen-devv-uks-01",
+		"groupId": "vault",
+		"fqdns": [
+			"kv-cen-devv-uks-01.vaultcore.azure.net"
+		]
+	}
+}

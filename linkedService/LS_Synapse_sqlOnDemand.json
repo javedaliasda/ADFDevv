@@ -1,0 +1,23 @@
+{
+	"name": "LS_Synapse_sqlOnDemand",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=syn-eimprc-devv-uks-01.sql.azuresynapse.net;Initial Catalog=syn_sql_eimprc_devv_uks_01;User ID=sqladminuser",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV_cen_devv_uks_01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ukssynPassword"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

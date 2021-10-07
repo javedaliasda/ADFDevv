@@ -1,0 +1,11 @@
+{
+	"name": "LS_KV_cen_devv_uks_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-cen-devv-uks-01.vault.azure.net/"
+		}
+	}
+}
