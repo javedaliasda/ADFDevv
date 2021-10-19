@@ -1,0 +1,40 @@
+{
+	"name": "LS_HDInsightdevvuk",
+	"properties": {
+		"description": "dev HD insight on demand",
+		"annotations": [],
+		"type": "HDInsightOnDemand",
+		"typeProperties": {
+			"clusterType": "spark",
+			"clusterSize": 4,
+			"timeToLive": "00:15:00",
+			"version": "4.0",
+			"hostSubscriptionId": "026e28e5-269f-4bd3-9f73-31069b08b766",
+			"clusterResourceGroup": "rg-core-dataingest-test-uks-01",
+			"servicePrincipalId": "8bf41cf4-c93b-45a5-816a-dbb33972a985",
+			"tenant": "b63ee29f-aaa6-4d4e-8267-1d6dca9c0e43",
+			"clusterNamePrefix": "cls_HDInsight",
+			"sparkVersion": "",
+			"servicePrincipalKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV_cen_devv_uks_01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "HDInsight"
+			},
+			"additionalLinkedServiceNames": [],
+			"linkedServiceName": {
+				"referenceName": "LS_DL_saasllnddtadmtestuks01",
+				"type": "LinkedServiceReference"
+			},
+			"headNodeSize": "",
+			"dataNodeSize": "",
+			"zookeeperNodeSize": ""
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
