@@ -1,0 +1,23 @@
+{
+	"name": "LS_SYN_syn_sql_eimprc_test_uks_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=syn-eimprc-test-uks-01.sql.azuresynapse.net;Initial Catalog=syn_sql_eimprc_test_uks_01;User ID=sqladminuser",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV_core_cen_test_uks_01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ukssynPassword"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adf-int-dataingest-test-uks-01",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7cac22e7-aacb-4e52-a294-815336db66dc",
+		"tenantId": "b63ee29f-aaa6-4d4e-8267-1d6dca9c0e43"
+	}
+}

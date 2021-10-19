@@ -1,0 +1,11 @@
+{
+	"name": "LS_KV_core_cen_test_uks_01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-core-cen-test-uks-01.vault.azure.net/"
+		}
+	}
+}

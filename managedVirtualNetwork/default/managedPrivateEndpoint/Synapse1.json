@@ -1,10 +1,10 @@
 {
 	"name": "Synapse1",
 	"properties": {
-		"privateLinkResourceId": "/subscriptions/23f952c6-b1f8-4d0e-8e64-a1fca38e756e/resourceGroups/rg-core-eimprocess-devv-uks-01/providers/Microsoft.Synapse/workspaces/syn-eimprc-devv-uks-01",
+		"privateLinkResourceId": "/subscriptions/026e28e5-269f-4bd3-9f73-31069b08b766/resourceGroups/rg-core-eimprocess-test-uks-01/providers/Microsoft.Synapse/workspaces/syn-eimprc-test-uks-01",
 		"groupId": "sqlOnDemand",
 		"fqdns": [
-			"syn-eimprc-devv-uks-01-ondemand.sql.azuresynapse.net"
+			"syn-eimprc-test-uks-01-ondemand.sql.azuresynapse.net"
 		]
 	}
 }

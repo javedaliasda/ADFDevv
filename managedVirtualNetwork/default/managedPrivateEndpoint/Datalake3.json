@@ -1,10 +1,10 @@
 {
 	"name": "Datalake3",
 	"properties": {
-		"privateLinkResourceId": "/subscriptions/23f952c6-b1f8-4d0e-8e64-a1fca38e756e/resourceGroups/rg-core-dataadmin-devv-uks-01/providers/Microsoft.Storage/storageAccounts/saaslstgdtadmdevvuks01",
+		"privateLinkResourceId": "/subscriptions/026e28e5-269f-4bd3-9f73-31069b08b766/resourceGroups/rg-core-dataadmin-test-uks-01/providers/Microsoft.Storage/storageAccounts/saaslstgdtadmtestuks01",
 		"groupId": "dfs",
 		"fqdns": [
-			"saaslstgdtadmdevvuks01.dfs.core.windows.net"
+			"saaslstgdtadmtestuks01.dfs.core.windows.net"
 		]
 	}
 }
